@@ -1,6 +1,7 @@
-!nvidia-smi
+import os as alpha
+alpha.system('nvidia-smi')
+alpha.system('pip install colabcode')
 
-!pip install colabcode
 
 from colabcode import ColabCode
 
